@@ -1,0 +1,9 @@
+Chaque mapper et reducer correspond à une tâche bien précise et est placé dans un dossier spécifique
+Il est possible de tester le mapper et le reducer avec un fichier de test (testfile), il suffit pour cela de rentrer la commande suivante :
+cat testfile | ./mapper.py | sort | ./reducer.py
+
+Pour ce qui est des datasets, ils sont placés dans les dossier myinput (associates) et myinput2 (NASA)
+
+Les résultats sont disponibles à la racine, results_nasa correspond au nombre de requêtes par jour tandis que results_associates correspond à la même chose pour le site de the associates
+
+Les autres résultats sont placés dans le fichier results.
